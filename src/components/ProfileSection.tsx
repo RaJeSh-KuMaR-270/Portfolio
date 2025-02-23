@@ -1,6 +1,6 @@
 import React from "react";
 import profile_img from "../assets/profile_img.svg";
-import { IProfileInfoProps } from "../type/type";
+import { IProfileInfoProps } from "../typings/type";
 import Button from "./Button";
 
 const ProfileSection: React.FC<IProfileInfoProps> = ({ profileInfo }) => {

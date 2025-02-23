@@ -13,7 +13,17 @@ export interface IButtonProps {
 export interface IProfileInfoProps {
   profileInfo: {
     name: string;
-    roleText:string;
+    roleText: string;
     description: string;
   };
+}
+
+export interface IAboutMeSectionProps {
+  aboutMeInfo: {
+    description: string;
+    subDescription?: string;
+    proficiency: { techStackName: string; precentage: string }[];
+    achievementsInfo: { count: string; description: string }[];
+  };
+  withSubDescription: boolean;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { IButtonProps } from "../type/type";
+import { IButtonProps } from "../typings/type";
 
 const Button: React.FC<IButtonProps> = ({
   label,
