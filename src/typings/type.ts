@@ -27,3 +27,10 @@ export interface IAboutMeSectionProps {
   };
   withSubDescription: boolean;
 }
+
+export interface IMyServiceSectionProps {
+  myServiceInfo: {
+    title: string;
+    serviceData: { s_no: string; s_name: string; s_desc: string }[];
+  };
+}

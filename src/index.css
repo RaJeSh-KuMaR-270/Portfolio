@@ -192,3 +192,35 @@ body {
   width: 100%;
   margin-bottom: 80px;
 }
+
+.about-me-achievement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: 0.5s;
+}
+
+.about-me-achievement h1{
+  font-size: 55px;
+  font-weight: 500;
+  background: linear-gradient(270deg, #da7c25 52.4%, #b923e9 92.4%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-me-achievement p {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.about-me-skill:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.about-me-achievement:hover {
+  transform: scale(1.12);
+  transition: 0.5s;
+}

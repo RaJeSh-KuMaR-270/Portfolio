@@ -1,7 +1,12 @@
 import AboutSection from "./components/AboutSection";
+import MyServiceSection from "./components/MyServiceSection";
 import Navbar from "./components/Navbar";
 import ProfileSection from "./components/ProfileSection";
-import { aboutMeSectionInfo, profileSectionInfo } from "./constants/constants";
+import {
+  aboutMeSectionInfo,
+  myServiceSectionInfo,
+  profileSectionInfo,
+} from "./constants/constants";
 
 const AppLayout = () => {
   return (
@@ -12,6 +17,7 @@ const AppLayout = () => {
         aboutMeInfo={aboutMeSectionInfo}
         withSubDescription={false}
       />
+      <MyServiceSection myServiceInfo={myServiceSectionInfo} />
     </div>
   );
 };
